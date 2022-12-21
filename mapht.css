@@ -1,0 +1,38 @@
+.boxmap {
+  width: 1440px;
+  height: 600px;
+
+  position: relative;
+
+  background-color: #fafafa;
+}
+
+.map4 {
+  width: 1440px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.down {
+  position: relative;
+  width: 1440px;
+  height: 563px;
+  background-color: #292c32;
+  top: 400px;
+}
+.header {
+  width: 1440px;
+  height: 66px;
+  background-color: #efefef;
+
+  left: 55px;
+}
+
+.down34 {
+  position: relative;
+  width: 1440px;
+  height: 563px;
+  background-color: #292c32;
+  top: 0px;
+}

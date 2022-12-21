@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css./normalize.css" />
+    <link rel="stylesheet" href="./css./header.css" />
+    <link rel="stylesheet" href="./Poppins./stylesheet.css" />
+    <link rel="stylesheet" href="./css./base.css" />
+    <link rel="stylesheet" href="./sett.css" />
+
+    <title>hotel</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="buttonmaps">
+        <a href="./map.html"><button class="maap">Где найти нас</button></a>
+      </div>
+      <div class="logo">
+        <a href="./index.html">
+          <button class="padd1">
+            <img
+              src="./images/Estate-Logotype-Horizontal-Color.svg"
+              alt="logo"
+            />
+          </button>
+        </a>
+      </div>
+
+      <div class="registr">
+        <div class="registr"><a href="./regist.html">
+          <button class="open-button3" onclick="openForm1()">Регистрация</button>
+        </a>
+
+        <div class="form-popup1" id="myForm1">
+         
+            <button type="submit" class="btn">Зарегистрировать</button>
+            <button type="button" class="btn cancel" onclick="closeForm1()">
+              Закрыть
+            </button>
+          </form>
+        </div>
+
+        
+      </div>
+      <div class="login2">
+        <a href="./login.html">
+          <button class="open-button4">Вход</button>
+        </a>
+        <div class="form-popup" id="myForm">
+          <form action="#" class="form-container">
+            <h1>Вход</h1>
+
+            <label for="name"><b>Е-мейл</b></label>
+            <input type="text" placeholder="Ваш е-мейл" name="email" required />
+
+            <label for="email"><b>Пароль</b></label>
+            <input
+              type="password"
+              placeholder="Ваш пароль"
+              name="password"
+              required
+            />
+
+            <button type="submit" class="btn">Войти</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">
+              Закрыть
+            </button>
+          </form>
+        </div>
+        <script>
+          function openForm() {
+            document.getElementById("myForm").style.display = "block";
+          }
+
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+        </script>
+      </div>
+    </header>
+    <div class="box2">
+      <div class="logo2"><img src="./images./frezernye-raboty.jpg" alt="logo2" /></div>
+      <div class="text"></div>
+      <div class="villa"></div>
+    </div>
+    <!--  
+    <div class="box3">
+      <div class="name22">Где нас найти</div>
+      <div class="map">
+        <div style="position: relative; overflow: hidden">
+          <a
+            href="https://yandex.ru/maps/969/vyborg/?utm_medium=mapframe&utm_source=maps"
+            style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+            >Выборг</a
+          ><a
+            href="https://yandex.ru/maps/969/vyborg/house/sbornaya_ulitsa_4/ZkEYcQFmSEYGQFhqfXtxdXtkZw==/?ll=28.767280%2C60.704375&utm_medium=mapframe&utm_source=maps&z=19.45"
+            style="color: #eee; font-size: 12px; position: absolute; top: 14px"
+            >Сборная улица, 4 — Яндекс Карты</a
+          ><iframe
+            src="https://yandex.ru/map-widget/v1/-/CCUnROdlxA"
+            width="560"
+            height="400"
+            frameborder="1"
+            allowfullscreen="true"
+            style="position: relative"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="box4">
+      <div class="city"><img src="/images/city.png " alt="city" /></div>
+      <div class="metka"><img src="/images/metka.png" alt="metka" /></div>
+
+      <div class="text5">Our requirements</div>
+      <div class="boxy2">
+        <div class="text6">How we choose our listings.</div>
+      </div>
+
+      <div class="boxy">
+        <div class="text7">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          scelerisque aliquam odio et faucibus.
+        </div>
+      </div>
+      <div class="text8">Stellar locations</div>
+      <div class="text9">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+      <div class="budka"><img src="/images/budka.svg" alt="budka" /></div>
+      <div class="text10">High quality builds</div>
+      <div class="text11">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+      <div class="chair"><img src="/images/chair2.svg" alt="chair" /></div>
+      <div class="textchair">Expert interior design</div>
+      <div class="textchair2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+    </div>
+    <div class="box5">
+      <div class="city1"><img src="/images/white2.svg" alt="" /></div>
+    </div>
+    <div class="box6">
+      <div class="textname1">Current listings</div>
+      <div class="text12">What we have in store for you.</div>
+
+      <div class="text13">
+        <ul class="sdsd">
+          Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
+          ut faucibus orci tincidunt.
+        </ul>
+      </div>
+      <div class="boxy4"><img src="/images/domiik.png" alt="domiik" /></div>
+      <div class="boxy5"><img src="/images/villa.png" alt="villa" /></div>
+      <div class="boxy6"><img src="/images/grove.png" alt="grove" /></div>
+      <div class="boxy7">
+        <img src="/images/apartament.png" alt="apartament" />
+      </div>
+      <div class="boxy8">
+        <img src="/images/apartament2.png" alt="apartament2" />
+      </div>
+      <div class="boxy9"><img src="/images/north.png" alt="north" /></div>
+      <div class="boxys">
+        <div class="house">
+          <ul class="minihouse">
+            House
+          </ul>
+          <div class="calisorniast">
+            <ul class="california1">
+              California St.
+            </ul>
+          </div>
+        </div>
+        <div class="beds1"><img src="/images/beds.svg" alt="beds" /></div>
+        <div class="beds2">
+          <ul class="bed">
+            16 beds
+          </ul>
+        </div>
+        <div class="beds3">2 bathrooms</div>
+        <div class="vana1"><img src="/images/vana.svg" alt="vana" /></div>
+        <div class="door1"><img src="/images/door.svg" alt="door" /></div>
+        <div class="doorname1">11 rooms</div>
+      </div>
+      <div class="boxys2">
+        <div class="villa1">Villa</div>
+        <div class="welford">Welford Gardens</div>
+        <div class="vana2"><img src="/images/vana.svg" alt="vana2" /></div>
+        <div class="beds4"><img src="/images/beds.svg" alt="beds4" /></div>
+        <div class="door2"><img src="/images/door.svg" alt="door2" /></div>
+        <div class="beds5">12 beds</div>
+        <div class="bathrooms2">3 bathrooms</div>
+        <div class="doorname2">11 rooms</div>
+      </div>
+      <div class="boxys3">
+        <div class="house5">House</div>
+        <div class="thegrove">The Grove</div>
+        <div class="beds6"><img src="/images/beds.svg" alt="beds" /></div>
+        <div class="bed1">12 beds</div>
+        <div class="vana3"><img src="/images/vana.svg" alt="vana2" /></div>
+        <div class="bathrooms3">2 bathrooms</div>
+        <div class="door3"><img src="/images/door.svg" alt="door2" /></div>
+        <div class="doorname3">14 rooms</div>
+      </div>
+      <div class="boxys4">
+        <div class="apartamen1">Apartment</div>
+        <div class="way">Dwight Way</div>
+        <div class="beds7"><img src="/images/beds.svg" alt="beds" /></div>
+        <div class="vana4"><img src="/images/vana.svg" alt="vana2" /></div>
+        <div class="door4"><img src="/images/door.svg" alt="door2" /></div>
+        <div class="bed2">8 beds</div>
+        <div class="bathrooms4">1 bathrooms</div>
+        <div class="doorname4">8 rooms</div>
+      </div>
+      <div class="boxys5">
+        <div class="beds8"><img src="/images/beds.svg" alt="beds" /></div>
+        <div class="vana5"><img src="/images/vana.svg" alt="vana2" /></div>
+        <div class="door5"><img src="/images/door.svg" alt="door2" /></div>
+        <div class="apartamen2">Apartment</div>
+        <div class="wallace">Wallace St.</div>
+        <div class="bed3">10 beds</div>
+        <div class="bathrooms5">2 bathrooms</div>
+        <div class="doorname5">8 rooms</div>
+      </div>
+      <div class="boxys6">
+        <div class="beds9"><img src="/images/beds.svg" alt="beds" /></div>
+        <div class="vana6"><img src="/images/vana.svg" alt="vana2" /></div>
+        <div class="door6"><img src="/images/door.svg" alt="door2" /></div>
+        <div class="apartamen3">House</div>
+        <div class="northavenu">North Avenue</div>
+        <div class="bed4">14 beds</div>
+        <div class="bathrooms6">3 bathrooms</div>
+        <div class="doorname6">11 rooms</div>
+      </div>
+    </div>
+    <div class="box7">
+      <div class="men1"><img src="/images/IMAGE.png" alt="" /></div>
+      <div class="men2"><img src="/images/men2.png" alt="" /></div>
+      <div class="men3"><img src="/images/women.png" alt="" /></div>
+      <div class="men4"><img src="/images/men3.png" alt="" /></div>
+      <div class="men5"><img src="/images/men4.png" alt="" /></div>
+      <div class="men6"><img src="/images/women2.png" alt="" /></div>
+      <div class="namemen">Ava Orn</div>
+      <div class="job">Managing Broker</div>
+      <div class="namemen2">David Sporer</div>
+      <div class="job2">Agent</div>
+      <div class="namemen3">Ella Hessel</div>
+      <div class="job3">Agent</div>
+      <div class="namemen4">Trevor Torphy</div>
+      <div class="job4">Agent</div>
+      <div class="namemen5">Daryl Gislason</div>
+      <div class="job5">REALTOR</div>
+      <div class="namemen6">Amanda Giovanni</div>
+      <div class="job6">REALTOR</div>
+      <div class="people1">Our people</div>
+      <div class="meet1">
+        <ul class="meet2">
+          Meet our team of dedicated and talented agents.
+        </ul>
+      </div>
+      <div class="meet3">
+        <ul class="meet4">
+          Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
+          ut faucibus orci tincidunt.
+        </ul>
+      </div>
+    </div>
+    <div class="box8">
+      <div class="boxi"></div>
+      <div class="boxi2"></div>
+      <div class="boxi3"></div>
+      <div class="blox">
+        <div class="org">Press release</div>
+        <div class="org2">
+          <ul class="or">
+            Market watch: are condos still a good investment?
+          </ul>
+        </div>
+        <div class="org3">August 12, 2021</div>
+      </div>
+      <div class="blox2">
+        <div class="org4">The history of great design</div>
+        <div class="org5">Announcement</div>
+        <div class="org6">August 12, 2021</div>
+      </div>
+      <div class="blox3">
+        <div class="org7">Company news</div>
+        <div class="org8">Designers who changed everything</div>
+        <div class="org9">August 12, 2021</div>
+      </div>
+      <div class="org10">Newsroom</div>
+      <div class="org11">Writing from Estate.</div>
+    </div>
+    <div class="box9">
+      <div class="ops">Testimonials</div>
+      <div class="ops2">What our customers say.</div>
+      <div class="boi">
+        <div class="star"><img src="/images/star.svg" alt="" /></div>
+        <div class="star2"><img src="/images/star.svg" alt="" /></div>
+        <div class="star3"><img src="/images/star.svg" alt="" /></div>
+        <div class="star4"><img src="/images/star.svg" alt="" /></div>
+        <div class="star5"><img src="/images/star.svg" alt="" /></div>
+        <div class="found">
+          <ul>
+            We found the perfect home!
+          </ul>
+          <div class="lorem">
+            <ul>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
+              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </ul>
+          </div>
+          <div class="stick"></div>
+          <div class="nate">Nate Davidsson</div>
+        </div>
+      </div>
+      <div class="boi2">
+        <div class="star6"><img src="/images/star.svg" alt="" /></div>
+        <div class="star7"><img src="/images/star.svg" alt="" /></div>
+        <div class="star8"><img src="/images/star.svg" alt="" /></div>
+        <div class="star9"><img src="/images/star.svg" alt="" /></div>
+        <div class="imptiness"><img src="/images/emptiness.svg" alt="" /></div>
+        <div class="happy">
+          <ul>
+            We're so happy with Estate.
+          </ul>
+        </div>
+        <div class="lorem2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+        </div>
+        <div class="stick2"></div>
+      </div>
+      <div class="laura">Laura Paulie</div>
+    </div>
+    <div class="box10">
+      <div class="seen">Seen enough?</div>
+      <div class="get">
+        <ul>
+          Get in touch with us today.
+        </ul>
+      </div>
+      <div class="morbi">
+        <ul>
+          Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
+          ut faucibus orci tincidunt.
+        </ul>
+      </div>
+      <div class="button1"><div class="contact">Contact</div></div>
+      <div class="button2"><div class="see">See listings</div></div>
+    </div>
+    -->
+    <div class="box11">
+      <div class="forma">
+        <br />
+        <div class="inner contact">
+          <!-- Form Area -->
+          <div class="contact-form">
+            <!-- Form -->
+            <form id="contact-us" method="post" action="#">
+              <!-- Left Inputs -->
+              <div
+                class="col-xs-6 wow animated slideInLeft"
+                data-wow-delay=".5s"
+              >
+                <!-- Name -->
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required="required"
+                  class="form"
+                  placeholder="Имя Фамилия"
+                />
+                <!-- Email -->
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  required="required"
+                  class="form"
+                  placeholder="Email"
+                />
+                <!-- Subject -->
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  required="required"
+                  class="form"
+                  placeholder="Тема"
+                />
+              </div>
+              <!-- End Left Inputs -->
+              <!-- Right Inputs -->
+              <div
+                class="col-xs-6 wow animated slideInRight"
+                data-wow-delay=".5s"
+              >
+                <!-- Message -->
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form textarea"
+                  placeholder="Сообщения"
+                ></textarea>
+              </div>
+              <!-- End Right Inputs -->
+              <!-- Bottom Submit -->
+              <div class="relative fullwidth col-xs-12">
+                <!-- Send Button -->
+                <a href="mailto:emiltrusicen46914@gmail.com">
+                <button
+                  type="submit"
+                  id="submit"
+                  name="submit"
+                  class="form-btn semibold"
+                >
+                  Отправить
+                </button>
+              </div>
+            </a>
+              <!-- End Bottom Submit -->
+              <!-- Clear -->
+            
+            </form>
+
+            <!-- Your Mail Message -->
+            <div class="mail-message-area">
+              <!-- Message -->
+              
+            </div>
+          </div>
+          <!-- End Contact Form Area -->
+        </div>
+      </div>
+      <div class="linki">
+        
+
+        <div class="uslug">
+          <a href="https://www.gosuslugi.ru/"> </a>
+        </div>
+        >
+        <div class="vk">
+          <p>
+            <a href="https://vk.com/cmitvbg"
+              ><img
+                src="./images./vk-733.png"
+                width="50"
+                height="50"
+                alt="Пример"
+            /></a>
+          </p>
+        </div>
+        <div class="youtube">
+          <p>
+            <a href="https://www.youtube.com/channel/UCG3ssIst2PGhaP3LxQW-deA"
+              ><img
+                src="./images./youtube07.png"
+                width="50"
+                height="50"
+                alt="Пример"
+            /></a>
+          </p>
+        </div>
+        <div class="gosus">
+          <p>
+            <a href="https://www.gosuslugi.ru/"
+              ><img
+                src="./images./gosusluga.png"
+                width="50"
+                height="50"
+                alt="Пример"
+            /></a>
+          </p>
+        </div>
+        <div class="pochta">
+          <p>
+            <a href="mailto:cmitspbru@yandex.ru?subject="
+              ><img src="./images./gmail37.png" width="50" height="50" alt=""
+            /></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
